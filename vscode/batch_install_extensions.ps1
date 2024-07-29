@@ -27,7 +27,7 @@ $additional_extensions = (
 )
 
 # select the extensions to install
-$extensions = $main_extensions +
+$extensions = $main_extensions #+
 #    $python_extensions +
 #    $sql_extensions +
 #    $additional_extensions
