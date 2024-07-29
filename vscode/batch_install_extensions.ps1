@@ -16,17 +16,21 @@ $python_extensions = (
     "ms-toolsai.jupyter" # Jupyter notebook support
 )
 
+$sql_extensions = (
+    "ms-mssql.mssql" # SQL Server extension
+)
+
 $additional_extensions = (
     "vasubasraj.flashpost", # create api requests for a REST API
     "ms-vsliveshare.vsliveshare", # Live share your code with others
     "grapecity.gc-excelviewer", # Excel viewer
-    "ms-mssql.mssql" # SQL Server extension
 )
 
 # select the extensions to install
 $extensions = $main_extensions +
-    $python_extensions +
-    $additional_extensions
+#    $python_extensions +
+#    $sql_extensions +
+#    $additional_extensions
 
 $cmd = "code --list-extensions"
 Invoke-Expression $cmd -OutVariable output | Out-Null
