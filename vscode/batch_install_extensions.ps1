@@ -1,24 +1,27 @@
 # This script will install all the extensions listed in the $extensions array.
 
-$main_extensions = 
+$main_extensions = (
     "mhutchie.git-graph", # Git graph
     "github.copilot", # GitHub copilot
     "github.copilot-chat", # GitHub copilot chat
     "ms-azuretools.vscode-docker", # Docker
     "ms-vscode-remote.remote-containers", # dev container support
-    "ms-vscode-remote.remote-ssh", # SSH support
+    "ms-vscode-remote.remote-ssh" # SSH support
+)
 
-$python_extensions =
+$python_extensions = (
     "ms-python.python", # Main python extension
     "ms-python.isort", # Sort imports for python
     "ms-python.black-formatter", # Black formatter for python
-    "ms-toolsai.jupyter", # Jupyter notebook support
+    "ms-toolsai.jupyter" # Jupyter notebook support
+)
 
-$additional_extensions =
+$additional_extensions = (
     "vasubasraj.flashpost", # create api requests for a REST API
     "ms-vsliveshare.vsliveshare", # Live share your code with others
     "grapecity.gc-excelviewer", # Excel viewer
-    "ms-mssql.mssql", # SQL Server extension
+    "ms-mssql.mssql" # SQL Server extension
+)
 
 # select the extensions to install
 $extensions = $main_extensions +
