@@ -23,7 +23,7 @@ $sql_extensions = (
 $additional_extensions = (
     "vasubasraj.flashpost", # create api requests for a REST API
     "ms-vsliveshare.vsliveshare", # Live share your code with others
-    "grapecity.gc-excelviewer", # Excel viewer
+    "grapecity.gc-excelviewer" # Excel viewer
 )
 
 # select the extensions to install
