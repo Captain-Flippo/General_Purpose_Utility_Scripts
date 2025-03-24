@@ -18,6 +18,10 @@ python_extensions=(
     "ms-toolsai.jupyter" # Jupyter notebook support
 )
 
+data_extensions=(
+    ms-toolsai.datawrangler # Data wrangler
+)
+
 sql_extensions=(
     "ms-mssql.mssql" # SQL Server extension
 )
@@ -32,6 +36,7 @@ additional_extensions=(
 extensions=("${main_extensions[@]}")
 # Uncomment the following lines to include additional extensions
 # extensions+=("${python_extensions[@]}")
+# extensions+=("${data_extensions[@]}")
 # extensions+=("${sql_extensions[@]}")
 # extensions+=("${additional_extensions[@]}")
 
